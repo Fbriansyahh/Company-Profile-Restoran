@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body style="background-color: black;">
@@ -20,8 +22,8 @@
             <a class="nav-link active" aria-current="page" href="#home">Home</a>
             <a class="nav-link" href="#about">About Me</a>
             <a class="nav-link" href="#top-menu">Menu</a>
-            <a class="nav-link" href="#education">Education</a>
-            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
+            <a class="nav-link" href="#contact">Contact Us</a>
           </div>
         </div>
       </div>
@@ -40,7 +42,9 @@
 
      <!-- About Section start -->
       <section id="about" class="about">
-        <h2 style="color: white;" >Tentang Kami</h2>
+        <div class="text-center mb-5">
+            <h2 class="display-4" style="color: white;">About Me</h2>
+          </div>
 
         <div class="row">
           <div class="about-img">
@@ -66,7 +70,9 @@
      <!-- top menu makanan section start -->
       <section id="top-menu" class="top-menu">
         <div class="container mt-5">
-          <h1 class="text-center mb-4" style="color: white;">Menu Makanan</h1>
+            <div class="text-center mb-5">
+                <h2 class="display-4" style="color: white;">Menu Makanan</h2>
+              </div>
           <div class="row">
               <div class="col-md-5">
                   <div class="menu-item">
@@ -131,7 +137,9 @@
      <!-- section menu minuman -->
      <section id="top-menu-minuman" class="top-menu-minuman">
       <div class="container mt-5">
-        <h1 class="text-center mb-4" style="color: white;">Menu Minuman</h1>
+        <div class="text-center mb-5">
+            <h2 class="display-4" style="color: white;">Menu Minuman</h2>
+          </div>
         <div class="row">
             <div class="col-md-5">
                 <div class="menu-item">
@@ -195,15 +203,128 @@
     </section>
     <!-- Section Menu Minuman -->
      <!-- Section Galery -->
-    <section id="galery" class="galery">
-
-
-
+     <section id="gallery" class="py-5 bg- text-white">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="display-4">Gallery</h2>
+            <p class="lead">Some of our featured dishes</p>
+          </div>
       
-    </section>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 mb-4">
+              <div class="card bg-black border-0">
+                <img src="img/galery1.jpg" class="card-img-top" alt="Dish 1">
+                <div class="card-body">
+                  <h5 class="card-title text-white">Dish 1</h5>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-4 col-md-4 mb-4">
+              <div class="card bg-black border-0">
+                <img src="img/galery2.jpg" class="card-img-top" alt="Dish 2">
+                <div class="card-body">
+                  <h5 class="card-title text-white">Dish 2</h5>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-4 col-md-4 mb-4">
+              <div class="card bg-black border-0">
+                <img src="img/galery3.jpg" class="card-img-top" alt="Dish 3">
+                <div class="card-body">
+                  <h5 class="card-title text-white">Dish 3</h5>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-4 col-md-4 mb-4">
+              <div class="card bg-black border-0">
+                <img src="img/galery4.jpg" class="card-img-top" alt="Dish 4">
+                <div class="card-body">
+                  <h5 class="card-title text-white">Dish 4</h5>
+                </div>
+              </div>
+            </div>
+      
+            
+       
+      </section>
+      
 
      <!-- Section Galery -->
-    
+     <section id="contact" class="py-5 bg-black text-white">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="display-4">Contact Us</h2>
+          </div>
+      
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <form>
+                <div class="form-group" style="margin-bottom: 20px;">
+                  <label for="name" style="margin-bottom: 10px;">Name</label>
+                  <input type="text" class="form-control bg-dark text-white" id="name" placeholder="Your Name">
+                </div>
+      
+                <div class="form-group" style="margin-bottom: 20px;">
+                  <label for="email"  style="margin-bottom: 10px;">Email</label>
+                  <input type="email" class="form-control bg-dark text-white" id="email" placeholder="Your Email">
+                </div>
+      
+                <div class="form-group" style="margin-bottom: 20px;">
+                  <label for="message"  style="margin-bottom: 10px;">Message</label>
+                  <textarea class="form-control bg-dark text-white" id="message" rows="5" placeholder="Your Message"></textarea>
+                </div>
+      
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-black text-white py-4">
+        <div class="container">
+          <div class="row">
+            <!-- About Section -->
+            <div class="col-md-4 mb-3">
+              <h5>About Us</h5>
+              <p>
+                Cihuyresto adalah restoran yang nyaman yang menawarkan berbagai hidangan lezat. Kami fokus pada makanan enak, pelayanan yang baik, dan suasana yang menyenangkan.
+              </p>
+            </div>
+      
+            <!-- Links Section -->
+            <div class="col-md-4 mb-3">
+              <h5>Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="#home" class="text-white">Home</a></li>
+                <li><a href="#menu" class="text-white">Menu</a></li>
+                <li><a href="#gallery" class="text-white">Gallery</a></li>
+                <li><a href="#contact" class="text-white">Contact Us</a></li>
+              </ul>
+            </div>
+      
+            <!-- Contact Section -->
+            <div class="col-md-4 mb-3">
+              <h5>Contact Info</h5>
+              <ul class="list-unstyled">
+                <li><i class="fas fa-map-marker-alt"></i> Jalan Indah Perumnas</li>
+                <li><i class="fas fa-phone"></i> +62 838 999 666</li>
+                <li><i class="fas fa-envelope"></i> contact@cihuyresto.com</li>
+              </ul>
+            </div>
+          </div>
+      
+          <!-- Copyright Section -->
+          <div class="text-center mt-4">
+            <p>&copy; 2024 Cihuyresto. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      
+      
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 

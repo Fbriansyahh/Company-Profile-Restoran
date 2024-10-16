@@ -184,3 +184,21 @@ li {
 .menu-description {
     color: white;
 }
+#gallery .card {
+    transition: transform 0.3s ease;
+  }
+  
+  #gallery .card:hover {
+    transform: scale(1.05);
+  }
+  
+.card-img-top {
+    width: 200px
+    max-width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottm: 50px;
+}
