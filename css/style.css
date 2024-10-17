@@ -202,3 +202,52 @@ li {
 .form-group {
     margin-bottm: 50px;
 }
+
+@media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+    }
+  
+    .about-img, .content {
+      width: 100%;
+      text-align: left;
+      padding: 0;
+    }
+  
+    .content ol {
+      padding-left: 20px;
+    }
+  
+    .content ol li {
+      margin-top: 20px;
+    }
+  }
+  /* Styling umum untuk gambar di menu */
+/* Styling umum untuk gambar di menu */
+.menu-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Media query untuk layar kecil */
+  @media (max-width: 768px) {
+    .menu-item {
+      text-align: center; /* Pusatkan konten dalam item */
+      margin-bottom: 20px; /* Tambahkan jarak antar item */
+    }
+  
+    .menu-img {
+      width: 100px;  /* Gambar tetap berbentuk persegi */
+      height: 100px;
+      object-fit: cover;
+      margin: 0 auto; /* Pusatkan gambar */
+    }
+  
+    .menu-title, .menu-description, .menu-price {
+      width: 100%; /* Teks memenuhi lebar penuh */
+      text-align: left; /* Teks rata kiri */
+    }
+  }
+  
+  
